@@ -3,10 +3,13 @@
 -- Resolução
 
 Executar:
+
 $ python3 __init__.py
 
 Opções de argumentos:
+
 -i ou --input  = Caminho do arquivo input (arquivo com os dados a serem lidos), ex: /home/user/input.txt
+
 -o ou --output = Caminho do arquivo output (arquivo onde será salvo os resultados), ex: /home/user/output.txt
 
 
@@ -29,15 +32,22 @@ O desafio é fazer um programa em Python que recebe usuários e os aloca nos ser
 tentando manter o menor custo possível.
 
 -- Input
+
+
 Um arquivo onde:
+
 • a primeira linha possui o valor de ttask ;
 • a segunda linha possui o valor de umax ;
 • as demais linhas contêm o número de novos usuários para cada tick .
 
 -- Output
+
+
 Um arquivo onde cada linha contém uma lista de servidores disponíveis no final de cada tick,
 representado pelo número de usuários em cada servidor separados por vírgula e, ao final, o
 custo total por utilização dos servidores
+
 Limites
+
 1 ≤ ttask ≤ 10
 1 ≤ umax ≤ 10
